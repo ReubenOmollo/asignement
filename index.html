@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="mydiv"style="display:block;"> this is a div element.</div>
+<button pn click="togglevisibility()">togglevisibility</button>
+  </div>  
+</body>
+<script>
+
+    function togglevisibility() {
+let mydiv=document.getElementById('mydiv');
+if(mydiv.style.display==='none') { 
+mydiv.style.display='block';
+console.log('show it');
+
+}else{
+    mydiv.style.display='none';
+    console.log('hide it')
+}
+
+    }
+
+    
+</script>
+</html>

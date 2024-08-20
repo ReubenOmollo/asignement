@@ -1,7 +1,7 @@
-function checkEvenOdd(number) {
-    if (number % 2 === 0) {
-        console.log("Even");
-    } else {
-        console.log("Odd");
-    }
+function printNumbers(n) {
+    do {
+        console.log(n);
+    } while(n >= 0);
 }
+
+printNumbers(-1);
